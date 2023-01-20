@@ -4,12 +4,11 @@ Organisation: Soham Academy Of Human Excellence
 Website: https://ria.sohamacademy.org/
 ****************************************************/
 
+#include "LiquidCrystal_I2C.h"
 #include <Wire.h>
-#include <Keypad.h>
+#include "Keypad.h"
 #include <Servo.h>
 #include <EEPROM.h>
-#include <LiquidCrystal_I2C.h>
-
 const byte numRows = 4;         //number of rows on the keypad
 const byte numCols = 4;         //number of columns on the keypad
 //int Button = 10;

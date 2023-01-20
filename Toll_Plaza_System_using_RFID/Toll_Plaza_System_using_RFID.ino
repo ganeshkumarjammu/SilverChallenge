@@ -4,8 +4,9 @@ Organisation: Soham Academy Of Human Excellence
 Website: https://ria.sohamacademy.org/
 ***********************************************************/
 
-#include <LiquidCrystal_I2C.h> // Library for LCD
-#include <Wire.h> // Library for I2C communication
+
+#include "LiquidCrystal_I2C.h"
+#include <Wire.h>
 #include <SPI.h>
 #include "MFRC522.h"
 #include <stdio.h>

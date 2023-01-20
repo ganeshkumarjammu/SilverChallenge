@@ -4,7 +4,8 @@
   Website: https://ria.sohamacademy.org/
 ****************************************************/
 
-#include <LiquidCrystal_I2C.h>
+#include "LiquidCrystal_I2C.h"
+#include <Wire.h>
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 // A4 to LCD_I2C SDA
 // A5 to LCD_I2c SCL
